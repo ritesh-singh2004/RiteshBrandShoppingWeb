@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritesh Brand Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+        <div class="log">
+            <h1>Ritesh Brand</h1>
+        </div>
+        <ul>
+            <li>
+                <a id="home" onclick="homes()">Home</a>
+                <a id="shop" onclick="shops()">Shops</a>
+                <a id="blog" onclick="blogs()">Blog</a>
+                <a id="about" onclick="abouts()">About</a>
+                <a id="contactus" onclick="contacts()">Contact Us</a>
+                <i class="fas fa-shopping-cart"><span class="quantity">0</span></i>
+            </li>
+        </ul>
+        </nav>
+
+        <!--mainPage-->
+
+        <div class="main">
+            <div class="mainText">
+                <h2>Ritesh Trends</h2>
+                <h1>Super Value Deals</h1>
+                <h1>On All Products</h1>
+                <p>The Rajput Company
+                    Industry: E-commerce | Men's & Women's Wears</p>
+                <p>Welcome to The Rajput Company, a premier e-commerce brand specializing in men's accessories, with</p>
+                <p>a primary focus on men's kada. We take great pride in offering an extensive collection of</p>
+                <p>pmeticulously crafted kadas, encompassing a wide range of designs and patterns to cater to diverse preferences</p>
+               <a href="https://www.anitadongre.com/MEN">Explore</a>
+            </div>
+            <img src="rajputgroup.png" alt="">
+        </div>
+
+        <!-- Cards -->
+ 
+        <div class="trend">
+            <div class="head">
+                <h1>RiteshTrends<span>Men's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                  <img src="longsleeve.png"  alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Long Sleeve Men Shirt</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="eng.png"  alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Engagement OutFits</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="coatpant.png"  alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>3 Piece Coat Pants</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add To Cart</button>
+                    </div>      
+                </div>
+
+                <div class="crd">
+                    <img src="mencas.png"  alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>CHKOKKO Men Casual </h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add To Cart</button>
+                    </div>     
+                </div>
+            </div>
+        </div>
+
+        <!-- Women Card -->
+
+        <div class="trend" id="trendSec">
+            <div class="head">
+                <h1>RiteshTrends<span>WoMen's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                  <img src="croppedtop.png"  alt="" onclick="show(this)">
+                    <div class="crdText">
+                         <h2>WoMens Cropped Tops</h2>
+                         <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star-half-stroke"></i><br>
+                         <button>Add To Cart</button>
+                    </div>     
+                </div>
+
+                <div class="crd">
+                    <img src="casual.png"  alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>WoMen's Casual OutFits</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="girldenim.png"  alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>WoMen's Denim OutFits</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="Grace.png"  alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Grace WoMen's T-Shirts</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- about us-->
+
+        <div class="about">
+            <div class="aboutus">
+                <h1>#KNOW US</h1>
+                <p>The Rajput Company is dedicated to educating people about the culture and empowering them to embrace their culture with inspired, high-quality products.
+                    Free delivery</p>
+            </div>
+            <div class="me">
+                <img src="raj.png" alt="">
+                <div class="aboutText">
+                    <h1>Rajput Brand Company?</h1>
+                    <p>The Rajput Company is dedicated to educating people about the culture and empowering them to embrace their culture with inspired, high-quality products.
+                        Free delivery</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Contact Us -->
+
+        <div class="contact">
+            <div class="contactus">
+                <h1>#Let's Connect</h1>
+                <p>To "contact me" means to initiate communication with me, whether by phone, email, text, or another method. You can do this by simply sending me a message or reaching out through my contact details.</p>
+            </div>
+
+            <div class="contactMe">
+                
+                <div class="contactText">
+                    <h1>Visit Our Office Or Contact <br>
+                         Us Today</h1>
+                    <p><strong>STREET:</strong> 4507 Mckinley Avenue</p>
+                    <p><strong>CITY:</strong> Appleton</p>
+                    <p><strong>STATE:</strong> Wisconsin</p>
+                    <p><strong>Zip-Code:</strong> 54913</p>
+                    <p><strong>Country:</strong> United States</p>
+                </div>
+                <img src="map.png" alt="">
+            </div>
+
+            <div class="form">
+                <h1>Connect With US: Fill Form</h1>
+                <input type="text" placeholder="Enter Your FirstName"><br>
+                <input type="text" placeholder="Enter Your LastName"><br>
+                <input type="text" placeholder="Enter Your Email"><br>
+                <input type="text" placeholder="Enter Your Number"><br>
+                <input type="text" placeholder="Enter Your Address"><br>
+                <button>SubMit</button>
+            </div>
+        </div>
+
+        <!-- Cart -->
+
+        <div class="cart">
+            <img id="newImg" src="" alt="">
+            <div class="cartText">
+                <h1>Trends Offer | Trending <br>
+                    Shop</h1>
+                    <h2>Special Price</h2>
+                    <h2>$11</h2>
+                    <p>Reliance Trends is currently offering various deals,</p>
+                    <p>including e-vouchers with potential discounts like 4% or 10% off on purchases.</p> 
+                    <p>Some offers include buying apparel for a certain amount and getting additional apparel free.</p>
+                    <div class="btn">
+                        <button onclick="buyNow()">Buy Now</button>
+                        <button onclick="addCart()">Add To Cart</button>
+                    </div>
+                    <button onclick="back()" class="back">Back</button>
+            </div>
+        </div>
+
+            <!-- Blogs -->
+
+            <div class="trends">
+                <div class="head">
+                    <h1>RiteshTrends<span>Men's Wear&WoMen's Wear</span></h1>
+
+                </div>
+                <div class="card">
+                    <div class="blog">
+                        <img src="nancyblog.png" alt="">
+                        <div class="blogText">
+                            <h2>Trending Nancy Clothes</h2>
+                            <p>Nancy Jewel McDonie (born April 13, 2000), known professionally as Nancy (Korean: 낸시), is a South Korean and American singer, actress. She is a member of the South Korean girl group Momoland, reality survival show Finding Momoland. In 2023, she performing in live musical theater.</p>
+                            <a href="https://en.wikipedia.org/wiki/Nancy_(singer)">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="blog">
+                        <img src="blogboy.png" alt="">
+                        <div class="blogText">
+                            <h2>Trending Kim Tae-hyung Clothes</h2>
+                            <p>Kim Tae-hyung (Korean: 김태형; born December 30, 1995),[2] known professionally as V (뷔), is a South Korean singer and songwriter. In 2013, he made his debut as a member of the South Korean boy band BTS, under Big Hit Entertainment.</p>
+                            <a href="https://en.wikipedia.org/wiki/V_(singer)">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Letter -->
+
+            <div class="letter">
+                <div class="letterText">
+                    <h1>SingUp For NewsLetter</h1>
+                    <p>The Rajput Company is dedicated to educating people about the culture and empowering them to embrace their culture with inspired, high-quality products.
+                        Free delivery</p>
+
+                </div>
+                <div class="inp">
+                    <input type="text" placeholder="Enter Email">
+                    <button>SingUp</button>
+                </div>
+            </div>
+
+            <!--Footer-->
+
+            <div class="footer">
+                <div class="footerText">
+                    <h2>Ritesh Brands</h2>
+                    <p>Services</p>
+                    <p>Customer</p>
+                    <p>Satisfaction</p>
+                </div>
+                <div class="footerText">
+                    <h2>Ritesh Brands</h2>
+                    <p>Services</p>
+                    <p>Customer</p>
+                    <p>Satisfaction</p>
+                </div>
+                <div class="footerText">
+                    <h2>Ritesh Brands</h2>
+                    <p>Services</p>
+                    <p>Customer</p>
+                    <p>Satisfaction</p>
+                </div>
+                <div class="footerText">
+                    <h2>Ritesh Brands</h2>
+                    <p>Services</p>
+                    <p>Customer</p>
+                    <p>Satisfaction</p>
+                </div>
+                <div class="footerText">
+                    <h2>Ritesh Brands</h2>
+                    <p>Services</p>
+                    <p>Customer</p>
+                    <p>Satisfaction</p>
+                </div>
+            </div> 
+
+            <div class="foot-panel3">
+                <div class="logo"></div>
+            </div>
+            <div class="foot-panel4">
+                <div class="pages">
+                    <a>Conditions of Use</a>
+                    <a>Privacy Notices</a>
+                    <a>Your Ads Privacy Choices</a>
+                </div>
+                <div class="copyright">
+                    @1996-2023, RiteshRajput.com, Inc. or its Affiliates
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body> 
+</html>       
